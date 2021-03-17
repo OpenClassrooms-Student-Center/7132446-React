@@ -1,5 +1,5 @@
 function Banner() {
-	const title = 'La maison jungle'
+	const title = 'Jungle House'
 	return <h1>{title}</h1>
 }
 
