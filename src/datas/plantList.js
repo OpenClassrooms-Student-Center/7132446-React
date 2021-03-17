@@ -3,7 +3,7 @@ import monstera from '../assets/monstera.jpg'
 export const plantList = [
 	{
 		name: 'monstera',
-		category: 'classique',
+		category: 'classic',
 		id: '1ed',
 		light: 2,
 		water: 3,
@@ -12,7 +12,7 @@ export const plantList = [
 	},
 	{
 		name: 'ficus lyrata',
-		category: 'classique',
+		category: 'classic',
 		id: '2ab',
 		light: 3,
 		water: 1,
@@ -20,8 +20,8 @@ export const plantList = [
 		price: 32
 	},
 	{
-		name: 'pothos argenté',
-		category: 'classique',
+		name: 'silver pothos',
+		category: 'classic',
 		id: '3sd',
 		light: 1,
 		water: 2,
@@ -30,7 +30,7 @@ export const plantList = [
 	},
 	{
 		name: 'yucca',
-		category: 'classique',
+		category: 'classic',
 		id: '4kk',
 		light: 3,
 		water: 1,
@@ -39,7 +39,7 @@ export const plantList = [
 	},
 	{
 		name: 'olivier',
-		category: 'extérieur',
+		category: 'exterior',
 		id: '5pl',
 		light: 3,
 		water: 1,
@@ -56,8 +56,8 @@ export const plantList = [
 		price: 9
 	},
 	{
-		name: 'basilique',
-		category: 'extérieur',
+		name: 'basilica',
+		category: 'exterior',
 		id: '7ie',
 		light: 2,
 		water: 3,
@@ -66,7 +66,7 @@ export const plantList = [
 	},
 	{
 		name: 'aloe',
-		category: 'plante grasse',
+		category: 'oil plant',
 		id: '8fp',
 		light: 2,
 		water: 1,
@@ -74,8 +74,8 @@ export const plantList = [
 		price: 8
 	},
 	{
-		name: 'succulente',
-		category: 'plante grasse',
+		name: 'succulent',
+		category: 'oil plant',
 		id: '9vn',
 		light: 2,
 		water: 1,
