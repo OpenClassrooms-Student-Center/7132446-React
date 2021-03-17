@@ -20,7 +20,7 @@ function ShoppingList({ cart, updateCart }) {
 				{plantList.map(({ id, cover, name, water, light }) => (
 					<div key={id}>
 						<PlantItem cover={cover} name={name} water={water} light={light} />
-						<button onClick={() => updateCart(cart + 1)}>Ajouter</button>
+						<button onClick={() => addToCart(name, price)}>Add</button>
 					</div>
 				))}
 			</ul>
