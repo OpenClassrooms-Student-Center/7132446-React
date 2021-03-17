@@ -7,9 +7,9 @@ function Footer() {
 	return (
 		<footer className='lmj-footer'>
 			<div className='lmj-footer-elem'>
-				Pour les passionné·e·s de plantes 🌿🌱🌵
+			For plant enthusiasts 🌿🌱🌵
 			</div>
-			<div className='lmj-footer-elem'>Laissez-nous votre mail :</div>
+			<div className='lmj-footer-elem'>Leave us your email :</div>
 		</footer>
 	)
 }
