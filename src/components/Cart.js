@@ -4,11 +4,11 @@ function Cart() {
 	const flowerPrice = 15
 	return (
 		<div>
-			<h2>Panier</h2>
+			<h2>Cart</h2>
 			<ul>
 				<li>Monstera : {monsteraPrice}€</li>
-				<li>Lierre : {ivyPrice}€</li>
-				<li>Fleurs : {flowerPrice}€</li>
+				<li>Ivy : {ivyPrice}€</li>
+				<li>Flowers : {flowerPrice}€</li>
 			</ul>
 			Total : {monsteraPrice + ivyPrice + flowerPrice}€
 		</div>
