@@ -11,7 +11,7 @@ import cactus from '../assets/cactus.jpg'
 export const plantList = [
 	{
 		name: 'monstera',
-		category: 'classique',
+		category: 'classic',
 		id: '1ed',
 		light: 2,
 		water: 3,
@@ -20,7 +20,7 @@ export const plantList = [
 	},
 	{
 		name: 'ficus lyrata',
-		category: 'classique',
+		category: 'classic',
 		id: '2ab',
 		light: 3,
 		water: 1,
@@ -29,8 +29,8 @@ export const plantList = [
 	},
 
 	{
-		name: 'pothos argenté',
-		category: 'classique',
+		name: 'silver pothos',
+		category: 'classic',
 		id: '3sd',
 		light: 1,
 		water: 2,
@@ -40,7 +40,7 @@ export const plantList = [
 	},
 	{
 		name: 'calathea',
-		category: 'classique',
+		category: 'classic',
 		id: '4kk',
 		light: 2,
 		water: 3,
@@ -50,7 +50,7 @@ export const plantList = [
 	},
 	{
 		name: 'olivier',
-		category: 'extérieur',
+		category: 'exterior',
 		id: '5pl',
 		light: 3,
 		water: 1,
@@ -60,7 +60,7 @@ export const plantList = [
 
 	{
 		name: 'cactus',
-		category: 'plante grasse',
+		category: 'oil plant',
 		id: '8fp',
 		light: 2,
 		water: 1,
@@ -77,8 +77,8 @@ export const plantList = [
 		price: 5
 	},
 	{
-		name: 'succulente',
-		category: 'plante grasse',
+		name: 'succulent',
+		category: 'oil plant',
 		id: '9vn',
 		light: 2,
 		water: 1,
@@ -87,8 +87,8 @@ export const plantList = [
 	},
 
 	{
-		name: 'menthe',
-		category: 'extérieur',
+		name: 'mint',
+		category: 'exterior',
 		id: '6uo',
 		light: 2,
 		water: 2,
