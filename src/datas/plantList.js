@@ -68,8 +68,8 @@ export const plantList = [
     price: 6
   },
   {
-    name: 'Basilique',
-    category: 'Outside',
+    name: 'Basil',
+    category: 'Exterior',
     id: '7ie',
     bestSale: true,
     light: 2,
@@ -88,8 +88,8 @@ export const plantList = [
   },
 
   {
-    name: 'Menthe',
-    category: 'Outside',
+    name: 'Mint',
+    category: 'Exterior',
     id: '6uo',
     light: 2,
     water: 2,
