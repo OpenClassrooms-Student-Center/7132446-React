@@ -1,7 +1,7 @@
 const plantList = [
 	'monstera',
 	'ficus lyrata',
-	'pothos argenté',
+	'silver pothos',
 	'yucca',
 	'palmier'
 ]
