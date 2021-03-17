@@ -13,9 +13,9 @@ function Cart({ cart, updateCart }) {
 				className='lmj-cart-toggle-button'
 				onClick={() => setIsOpen(false)}
 			>
-				Fermer
+				Close
 			</button>
-			<h2>Panier</h2>
+			<h2>Cart</h2>
 			{cart.map(({ name, price, amount }, index) => (
 				<div key={`${name}-${index}`}>
 					{name} {price}€ x {amount}
@@ -23,7 +23,7 @@ function Cart({ cart, updateCart }) {
 			))}
 
 			<h3>Total : {total}€</h3>
-			<button onClick={() => updateCart([])}>Vider le panier</button>
+			<button onClick={() => updateCart(0)}>Empty the cart</button>
 		</div>
 	) : (
 		<div className='lmj-cart-closed'>
@@ -31,7 +31,7 @@ function Cart({ cart, updateCart }) {
 				className='lmj-cart-toggle-button'
 				onClick={() => setIsOpen(true)}
 			>
-				Ouvrir le Panier
+				Open Cart
 			</button>
 		</div>
 	)
