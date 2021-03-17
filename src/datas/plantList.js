@@ -36,12 +36,12 @@ export const plantList = [
 	},
 	{
 		name: 'aloe',
-		category: 'oil plant',
+		category: 'succulent',
 		id: '8fp'
 	},
 	{
 		name: 'succulent',
-		category: 'oil plant',
+		category: 'succulent',
 		id: '9vn'
 	}
 ]
