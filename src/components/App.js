@@ -13,8 +13,8 @@ function App() {
 	return (
 		<div>
 			<Banner>
-				<img src={logo} alt='La maison jungle' className='lmj-logo' />
-				<h1 className='lmj-title'>La maison jungle</h1>
+				<img src={logo} alt='Jungle House' className='lmj-logo' />
+				<h1 className='lmj-title'>Jungle House</h1>
 				<Time />
 			</Banner>
 			<div className='lmj-layout-inner'>

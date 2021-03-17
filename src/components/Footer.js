@@ -5,22 +5,22 @@ function Footer({ cart }) {
 	const [inputValue, setInputValue] = useState('')
 
 	useEffect(() => {
-		console.log(`1️⃣ Cette alerte s'affiche à chaque rendu`)
+		console.log(`1️⃣ This alert is displayed for each rendering`)
 	})
 
 	useEffect(() => {
-		console.log(`2️⃣ Cette alerte s'affiche au premier rendu`)
+		console.log(`2️⃣ This alert is displayed at first rendering`)
 	}, [])
 
 	useEffect(() => {
 		console.log(
-			`3️⃣ Cette alerte s'affiche la première fois et quand mon panier est mis à jour`
+			`3️⃣ This alert appears the first time and when my basket is updated`
 		)
 	}, [cart])
 
 	useEffect(() => {
 		return () =>
-			console.log(`4️⃣ Cette alerte s'affiche quand Footer est retiré du DOM`)
+			console.log(`4️⃣ This alert is displayed when Footer is removed from the DOM`)
 	}, [cart])
 	function handleInput(e) {
 		setInputValue(e.target.value)
@@ -28,18 +28,18 @@ function Footer({ cart }) {
 
 	function handleBlur() {
 		if (!inputValue.includes('@')) {
-			alert("Attention, il n'y a pas d'@, ceci n'est pas une adresse valide 😥")
+			alert("Attention, there is no @, this is not a valid address 😥")
 		}
 	}
 
 	return (
 		<footer className='lmj-footer'>
 			<div className='lmj-footer-elem'>
-				Pour les passionné·e·s de plantes 🌿🌱🌵
+			For plant enthusiasts 🌿🌱🌵
 			</div>
-			<div className='lmj-footer-elem'>Laissez-nous votre mail :</div>
+			<div className='lmj-footer-elem'>Leave us your email :</div>
 			<input
-				placeholder='Entrez votre mail'
+				placeholder='Enter your email'
 				onChange={handleInput}
 				value={inputValue}
 				onBlur={handleBlur}
