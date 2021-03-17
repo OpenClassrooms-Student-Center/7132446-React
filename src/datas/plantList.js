@@ -38,13 +38,13 @@ export const plantList = [
 	},
 	{
 		name: 'aloe',
-		category: 'oil plant',
+		category: 'succulent',
 		id: '8fp',
 		isSpecialOffer: true
 	},
 	{
 		name: 'succulent',
-		category: 'oil plant',
+		category: 'succulent',
 		id: '9vn'
 	}
 ]
