@@ -1,7 +1,7 @@
 import { useState } from 'react'
 
 function QuestionForm() {
-	const [inputValue, setInputValue] = useState('Posez votre question ici')
+	const [inputValue, setInputValue] = useState('Ask your question here')
 
 	const isInputError = inputValue.includes('f')
 	function checkValue(value) {
@@ -12,14 +12,14 @@ function QuestionForm() {
 	return (
 		<div>
 			{isInputError && (
-				<div>🔥 Vous n'avez pas le droit d'utiliser la lettre "f" ici.</div>
+				<div>🔥 You are not allowed to use the letter 'f' here.</div>
 			)}
 			<textarea
 				value={inputValue}
 				onChange={(e) => checkValue(e.target.value)}
 			/>
 
-			<button onClick={() => alert(inputValue)}>Alertez moi 🚨</button>
+			<button onClick={() => alert(inputValue)}>Alert me 🚨</button>
 		</div>
 	)
 }
