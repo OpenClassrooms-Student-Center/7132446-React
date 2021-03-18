@@ -58,7 +58,7 @@ export const plantList = [
 	},
 	{
 		name: 'cactus',
-		category: 'oil plant',
+		category: 'succulent',
 		id: '8fp',
 		light: 2,
 		water: 1,
@@ -66,8 +66,8 @@ export const plantList = [
 		price: 6
 	},
 	{
-		name: 'basilique',
-		category: 'extérieur',
+		name: 'basil',
+		category: 'exterior',
 		id: '7ie',
 		light: 2,
 		water: 3,
@@ -76,7 +76,7 @@ export const plantList = [
 	},
 	{
 		name: 'succulent',
-		category: 'oil plant',
+		category: 'succulent',
 		id: '9vn',
 		light: 2,
 		water: 1,
