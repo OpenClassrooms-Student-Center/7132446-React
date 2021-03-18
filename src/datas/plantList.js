@@ -61,7 +61,7 @@ export const plantList = [
 	},
 	{
 		name: 'aloe',
-		category: 'oil plant',
+		category: 'succulent',
 		id: '8fp',
 		light: 2,
 		water: 1,
@@ -69,7 +69,7 @@ export const plantList = [
 	},
 	{
 		name: 'succulent',
-		category: 'oil plant',
+		category: 'succulent',
 		id: '9vn',
 		light: 2,
 		water: 1,
