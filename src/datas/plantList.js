@@ -53,14 +53,14 @@ export const plantList = [
 
 	{
 		name: 'cactus',
-		category: 'oil plant',
+		category: 'succulent',
 		id: '8fp',
 		light: 2,
 		water: 1,
 		cover: cactus
 	},
 	{
-		name: 'basilica',
+		name: 'basil',
 		category: 'exterior',
 		id: '7ie',
 		light: 2,
@@ -69,7 +69,7 @@ export const plantList = [
 	},
 	{
 		name: 'succulent',
-		category: 'oil plant',
+		category: 'succulent',
 		id: '9vn',
 		light: 2,
 		water: 1,
