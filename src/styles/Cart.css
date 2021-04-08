@@ -27,6 +27,7 @@
 .jh-cart-closed {
 	padding: 32px;
 	width: 200px;
+	background-color: #F6F9F9;
 }
 
 .jh-cart-closed > button {
