@@ -15,11 +15,11 @@ function Footer() {
 	}
 
 	return (
-		<footer className='lmj-footer'>
-			<div className='lmj-footer-elem'>
+		<footer className='jh-footer'>
+			<div className='jh-footer-elem'>
 			For plant enthusiasts 🌿🌱🌵
 			</div>
-			<div className='lmj-footer-elem'>Leave us your email :</div>
+			<div className='jh-footer-elem'>Leave us your email :</div>
 			<input
 				placeholder='Enter your email'
 				onChange={handleInput}
