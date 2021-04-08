@@ -34,7 +34,7 @@ export const plantList = [
 		cover: monstera
 	},
 	{
-		name: 'olivier',
+		name: 'olive tree',
 		category: 'exterior',
 		id: '5pl',
 		light: 3,
