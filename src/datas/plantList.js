@@ -49,12 +49,12 @@ export const plantList = [
     price: 20
   },
   {
-    name: 'Olivier',
+    name: 'Olive Tree',
     category: 'Outside',
     id: '5pl',
     light: 3,
     water: 1,
-    cover: olivier,
+    cover: olive,
     price: 25
   },
 
