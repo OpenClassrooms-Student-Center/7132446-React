@@ -21,7 +21,7 @@ export const plantList = [
 		id: '4kk'
 	},
 	{
-		name: 'olivier',
+		name: 'olive tree',
 		category: 'exterior',
 		id: '5pl',
 		isAvailable: false
@@ -32,7 +32,7 @@ export const plantList = [
 		id: '6uo'
 	},
 	{
-		name: 'basilica',
+		name: 'basil',
 		category: 'exterior',
 		id: '7ie',
 		isSpecialOffer: true
