@@ -16,7 +16,7 @@ function ShoppingList({ cart, updateCart }) {
 					<li key={cat}>{cat}</li>
 				))}
 			</ul>
-			<ul className='lmj-plant-list'>
+			<ul className='jh-plant-list'>
 				{plantList.map(({ id, cover, name, water, light }) => (
 					<div key={id}>
 						<PlantItem cover={cover} name={name} water={water} light={light} />
