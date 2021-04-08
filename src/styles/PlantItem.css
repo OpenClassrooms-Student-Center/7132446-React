@@ -1,11 +1,11 @@
-.lmj-plant-item-cover {
+.jh-plant-item-cover {
 	height: 250px;
 	width: 250px;
 	border-radius: 20px;
 	object-fit: cover;
 }
 
-.lmj-plant-item {
+.jh-plant-item {
 	margin: 10px;
 	display: flex;
 	align-items: flex-start;
