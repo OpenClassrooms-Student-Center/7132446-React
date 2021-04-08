@@ -4,9 +4,9 @@ import '../styles/Banner.css'
 function Banner() {
 	const title = 'Jungle House'
 	return (
-		<div className='lmj-banner'>
+		<div className='jh-banner'>
 			<img src={logo} alt='Jungle House' />
-			<h1 className='lmj-title'>{title}</h1>
+			<h1 className='jh-title'>{title}</h1>
 		</div>
 	)
 }
