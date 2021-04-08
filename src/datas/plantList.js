@@ -53,7 +53,7 @@ export const plantList = [
 		id: '5pl',
 		light: 3,
 		water: 1,
-		cover: olivier,
+		cover: olive,
 		price: 25
 	},
 
