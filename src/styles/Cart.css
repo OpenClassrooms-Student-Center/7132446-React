@@ -1,4 +1,4 @@
-.lmj-cart {
+.jh-cart {
 	color: white;
 	background-color: #31b572;
 	padding: 32px;
@@ -7,12 +7,12 @@
 	justify-content: flex-start;
 }
 
-.lmj-cart-add-button {
+.jh-cart-add-button {
 	margin-left: 32px;
 	cursor: pointer;
 }
 
-.lmj-cart-toggle-button {
+.jh-cart-toggle-button {
 	background: none;
 	outline: none;
 	border: none;
@@ -23,10 +23,10 @@
 	color: white;
 }
 
-.lmj-cart-closed {
+.jh-cart-closed {
 	padding: 32px;
 }
 
-.lmj-cart-closed > button {
+.jh-cart-closed > button {
 	color: black;
 }
