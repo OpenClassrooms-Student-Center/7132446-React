@@ -9,7 +9,7 @@ function App() {
 		<div>
 			<Banner>
 			<img src={logo} alt='Jungle House' />
-				<h1 className='lmj-title'>Jungle House</h1>
+				<h1 className='jh-title'>Jungle House</h1>
 			</Banner>
 			<QuestionForm />
 
