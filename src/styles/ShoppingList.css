@@ -1,4 +1,4 @@
-.lmj-plant-list {
+.jh-plant-list {
 	list-style-type: none;
 	padding: 32px;
 	display: flex;
@@ -6,7 +6,7 @@
 	max-width: 800px;
 }
 
-.lmj-plant-item {
+.jh-plant-item {
 	border: solid 2px black;
 	border-radius: 10px;
 	height: 150px;
