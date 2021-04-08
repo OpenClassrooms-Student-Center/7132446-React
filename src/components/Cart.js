@@ -12,9 +12,9 @@ function Cart({ cart, updateCart }) {
   }, [total])
 
   return isOpen ? (
-    <div className='lmj-cart'>
+    <div className='jh-cart'>
       <button
-        className='lmj-cart-toggle-button'
+        className='jh-cart-toggle-button'
         onClick={() => setIsOpen(false)}
       >
         Close
@@ -37,9 +37,9 @@ function Cart({ cart, updateCart }) {
       )}
     </div>
   ) : (
-    <div className='lmj-cart-closed'>
+    <div className='jh-cart-closed'>
       <button
-        className='lmj-cart-toggle-button'
+        className='jh-cart-toggle-button'
         onClick={() => setIsOpen(true)}
       >
         Clear Basket

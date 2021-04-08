@@ -17,9 +17,9 @@ function Footer() {
   }
 
   return (
-    <footer className='lmj-footer'>
-      <div className='lmj-footer-elem'>For plant enthusiasts 🌿🌱🌵</div>
-      <div className='lmj-footer-elem'>Subscribe to our newsletter:</div>
+    <footer className='jh-footer'>
+      <div className='jh-footer-elem'>For plant enthusiasts 🌿🌱🌵</div>
+      <div className='jh-footer-elem'>Subscribe to our newsletter:</div>
       <input
         placeholder='Enter your email'
         onChange={handleInput}
