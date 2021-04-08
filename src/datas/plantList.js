@@ -38,7 +38,7 @@ export const plantList = [
 		price: 17
 	},
 	{
-		name: 'olivier',
+		name: 'olive tree',
 		category: 'exterior',
 		id: '5pl',
 		light: 3,
