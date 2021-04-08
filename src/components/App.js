@@ -9,10 +9,10 @@ function App() {
 	return (
 		<div>
 			<Banner>
-				<img src={logo} alt='Jungle House' className='lmj-logo' />
-				<h1 className='lmj-title'>Jungle House</h1>
+				<img src={logo} alt='Jungle House' className='jh-logo' />
+				<h1 className='jh-title'>Jungle House</h1>
 			</Banner>
-			<div className='lmj-layout-inner'>
+			<div className='jh-layout-inner'>
 				<Cart />
 				<ShoppingList />
 			</div>

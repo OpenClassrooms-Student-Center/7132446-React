@@ -7,9 +7,9 @@ function Cart() {
 	const [isOpen, setIsOpen] = useState(true)
 
 	return isOpen ? (
-		<div className='lmj-cart'>
+		<div className='jh-cart'>
 			<button
-				className='lmj-cart-toggle-button'
+				className='jh-cart-toggle-button'
 				onClick={() => setIsOpen(false)}
 			>
 				Close
@@ -21,9 +21,9 @@ function Cart() {
 			<button onClick={() => updateCart(0)}>Empty the cart</button>
 		</div>
 	) : (
-		<div className='lmj-cart-closed'>
+		<div className='jh-cart-closed'>
 			<button
-				className='lmj-cart-toggle-button'
+				className='jh-cart-toggle-button'
 				onClick={() => setIsOpen(true)}
 			>
 				Open Cart
