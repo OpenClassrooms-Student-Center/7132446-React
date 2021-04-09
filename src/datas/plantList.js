@@ -50,7 +50,7 @@ export const plantList = [
   },
   {
     name: 'Olive Tree',
-    category: 'Outside',
+    category: 'Exterior',
     id: '5pl',
     light: 3,
     water: 1,
