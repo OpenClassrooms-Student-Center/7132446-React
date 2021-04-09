@@ -1,7 +1,7 @@
-# OpenClassrooms - Create a Web Application With React
+# OpenClassrooms - Create a Web Application With React.js
 
 This repo contains the base code for the exercises you will find in the 
-[OpenClassrooms - Create a Web Application With React](https://openclassrooms.com/fr/courses/7008001-debutez-avec-react) course.
+[OpenClassrooms - Create a Web Application With React.js](https://openclassrooms.com/fr/courses/7008001-debutez-avec-react) course.
 
 ## Exercises
 
