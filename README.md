@@ -5,7 +5,7 @@ This repo contains the base code for the exercises you will find in the
 
 ## Exercises
 
-### Part 1 - Learn about the principles of React
+### Part 1 - Learn How React Works
 
 The exercises in this section can be found on CodePen.
 
@@ -15,7 +15,7 @@ The exercises in this section can be found on CodePen.
 | [Chapter 2](https://openclassrooms.com/fr/courses/7008001-debutez-avec-react/7134597-apprehendez-la-logique-de-react)                      | [Beginning of the exercise](https://codepen.io/nicolaspatschkowski/pen/ExgrqLV) | [Solution](https://codepen.io/nicolaspatschkowski/pen/vYXVqod) |
 | [Chapter 3](https://openclassrooms.com/fr/courses/7008001-debutez-avec-react/7134800-ecrivez-du-code-modulaire-avec-les-composants-en-jsx) | [Beginning of the exercise](https://codepen.io/nicolaspatschkowski/pen/JjRmgdJ) | [Solution](https://codepen.io/nicolaspatschkowski/pen/MWjPNaa) |
 
-### Part 2 - Create your first complete application with Create React App
+### Part 2 - Create a Complete Application Using Create React App (CRA)
 
 | Content                                                                                                                                                    | Begin                                                                                                                                                                                                             | Solution                                                                                                                                                                                                                      |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -25,7 +25,7 @@ The exercises in this section can be found on CodePen.
 | [Chapter 4](https://openclassrooms.com/fr/courses/7008001-debutez-avec-react/7135822-reutilisez-vos-composants-avec-les-props)                            | [Start branch](https://github.com/OpenClassrooms-Student-Center/7008001-Debutez-avec-React/tree/P2C4-Begin)                                                                                                      | [Solution branch](https://github.com/OpenClassrooms-Student-Center/7008001-Debutez-avec-React/tree/P2C4-Solution)                                                                                                            |
 | [Chapter 5](https://openclassrooms.com/fr/courses/7008001-debutez-avec-react/7136084-interagissez-avec-vos-composants-grace-aux-evenements)               | [Start branch](https://github.com/OpenClassrooms-Student-Center/7008001-Debutez-avec-React/tree/P2C5-Begin)                                                                                                      | [Solution branch](https://github.com/OpenClassrooms-Student-Center/7008001-Debutez-avec-React/tree/P2C5-Solution)                                                                                                            |
 
-### Part 3 - Store and retrieve data with state and effects
+### Part 3 - Manage Data in a React App Using State and Effects
 
 | Content                                                                                                                                 | Begin                                                                                                        | Solution                                                                                                           |
 | --------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------ |
