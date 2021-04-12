@@ -23,7 +23,7 @@ function Cart({ cart, updateCart }) {
 			))}
 
 			<h3>Total : {total}€</h3>
-			<button onClick={() => updateCart(0)}>Empty the cart</button>
+			<button onClick={() => updateCart([])}>Empty the cart</button>
 		</div>
 	) : (
 		<div className='jh-cart-closed'>
