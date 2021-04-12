@@ -17,10 +17,10 @@ function ShoppingList({ cart, updateCart }) {
 			)
 			updateCart([
 				...cartFilteredCurrentPlant,
-				{ name, price, amount: currentPlantAdded.amount + 1 }
+				{ name, price, quantity: currentPlantAdded.quantity + 1 }
 			])
 		} else {
-			updateCart([...cart, { name, price, amount: 1 }])
+			updateCart([...cart, { name, price, quantity: 1 }])
 		}
 	}
 

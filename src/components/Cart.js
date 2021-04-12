@@ -4,7 +4,7 @@ import '../styles/Cart.css'
 function Cart({ cart, updateCart }) {
 	const [isOpen, setIsOpen] = useState(true)
 	const total = cart.reduce(
-		(acc, plantType) => acc + plantType.amount * plantType.price,
+		(acc, plantType) => acc + plantType.quantity * plantType.price,
 		0
 	)
 	return isOpen ? (
@@ -16,9 +16,9 @@ function Cart({ cart, updateCart }) {
 				Close
 			</button>
 			<h2>Cart</h2>
-			{cart.map(({ name, price, amount }, index) => (
+			{cart.map(({ name, price, quantity }, index) => (
 				<div key={`${name}-${index}`}>
-					{name} {price}€ x {amount}
+					{name} {price}€ x {quantity}
 				</div>
 			))}
 
