@@ -20,10 +20,10 @@ function App() {
 			<div className='jh-layout-inner'>
 				<Cart cart={cart} updateCart={updateCart} />
 				<ShoppingList cart={cart} updateCart={updateCart} />
-				<button onClick={() => updateIsFooterShown(!isFooterShown)}>
-					Cacher !
-				</button>
 			</div>
+			<button onClick={() => updateIsFooterShown(!isFooterShown)}>
+				Hide!
+			</button>
 			{isFooterShown && <Footer cart={cart} />}
 		</div>
 	)
